@@ -17,7 +17,8 @@ echo " -------------------------- "
 # Inserindo múltiplas váriaveis
 
 echo " Digite os nomes das frutas: "
-read name1 name2 name3 name4
+echo ""
+read  name1 name2 name3 name4
 echo ""
 echo " Nomes das frutas são: $name1, $name2, $name3, $name4"
 
@@ -26,5 +27,5 @@ echo " -------------------------- "
 
 # Inserindo / fazendo a leitura no mesmo prompt/linha
 echo " Entre com seu usuário "
-read -p 'Usuario: ' user_var
-echo " Usuario: $user_var"
+read -p ' Usuario: ' user_var
+echo " Usuario Informado : $user_var"
