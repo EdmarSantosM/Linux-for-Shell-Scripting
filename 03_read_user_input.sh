@@ -43,6 +43,9 @@ echo " -------------------------- "
 echo " Usuário : " $var_usuario
 echo " Password : " $var_password
 
-
-echo ""
 echo " -------------------------- "
+echo ""
+# Inserindo várias entradas e salvando em um array
+echo "Informe os Sistemas Operacionais: "
+read -a lista
+echo "Produtos: ${lista[0]}, ${lista[1]}, ${lista[2]}"
