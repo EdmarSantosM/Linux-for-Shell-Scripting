@@ -49,3 +49,11 @@ echo ""
 echo "Informe os Sistemas Operacionais: "
 read -a lista
 echo "Produtos: ${lista[0]}, ${lista[1]}, ${lista[2]}"
+
+echo " -------------------------- "
+echo ""
+
+# Leitura sem parametro
+echo " Entre com o nome: "
+read
+echo " Nome :" $REPLY
