@@ -29,3 +29,20 @@ echo " -------------------------- "
 echo " Entre com seu usuário "
 read -p ' Usuario: ' user_var
 echo " Usuario Informado : $user_var"
+
+echo " -------------------------- "
+
+# Inserindo a  flag s
+echo " Entre com seu usuário e  senha "
+read -p ' Usuário: ' var_usuario
+read -sp ' Password ' var_password
+
+echo ""
+echo " -------------------------- "
+
+echo " Usuário : " $var_usuario
+echo " Password : " $var_password
+
+
+echo ""
+echo " -------------------------- "
